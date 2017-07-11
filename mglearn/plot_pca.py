@@ -4,7 +4,7 @@ import numpy as np
 
 from sklearn.externals.joblib import Memory
 
-memory = Memory(cachedir="cache")
+memory = Memory(cachedir=None)
 
 
 def plot_pca_illustration():
